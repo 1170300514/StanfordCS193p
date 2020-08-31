@@ -10,6 +10,22 @@
 
 @implementation PlayingCard
 
+- (int)match:(NSArray *)otherCard {
+    int score = 0;
+    
+    if ([otherCard count] == 1) {
+        // firstObject 相当于 [array objectAtIndex:0]
+        // 但好处是array为空时不会报错只会返回nil
+        PlayingCard *firstCard = [otherCard objectAtIndex:0];
+        if (firstCard.rank == self.rank) {
+            score = 4;
+        } else if ([firstCard.suit isEqualToString: self.suit]) {
+            score = 1;
+        }
+    }
+    return score;
+}
+
 - (NSString *)contents {
     NSArray *rankStrings = [PlayingCard rankStrings];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];

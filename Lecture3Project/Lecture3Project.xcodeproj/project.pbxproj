@@ -20,6 +20,7 @@
 		8FAF136A24FC8E4700A6199F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF136924FC8E4700A6199F /* Deck.m */; };
 		8FAF136D24FC8F1A00A6199F /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF136C24FC8F1A00A6199F /* PlayingCard.m */; };
 		8FAF137024FC8FA600A6199F /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF136F24FC8FA600A6199F /* PlayingCardDeck.m */; };
+		8FAF137424FC9DB300A6199F /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF137324FC9DB300A6199F /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		8FAF136C24FC8F1A00A6199F /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		8FAF136E24FC8FA600A6199F /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		8FAF136F24FC8FA600A6199F /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		8FAF137224FC9DB300A6199F /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Lecture3Project/CardMatchingGame.h; sourceTree = SOURCE_ROOT; };
+		8FAF137324FC9DB300A6199F /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Lecture3Project/CardMatchingGame.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 		8FAF137124FC93C400A6199F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FAF137224FC9DB300A6199F /* CardMatchingGame.h */,
+				8FAF137324FC9DB300A6199F /* CardMatchingGame.m */,
 				8FAF136524FC8DD000A6199F /* Card.h */,
 				8FAF136624FC8DD000A6199F /* Card.m */,
 				8FAF136824FC8E4700A6199F /* Deck.h */,
@@ -298,6 +303,7 @@
 				8FAF136724FC8DD000A6199F /* Card.m in Sources */,
 				8FAF137024FC8FA600A6199F /* PlayingCardDeck.m in Sources */,
 				8FAF133824FC8D8700A6199F /* ViewController.m in Sources */,
+				8FAF137424FC9DB300A6199F /* CardMatchingGame.m in Sources */,
 				8FAF136D24FC8F1A00A6199F /* PlayingCard.m in Sources */,
 				8FAF133224FC8D8700A6199F /* AppDelegate.m in Sources */,
 				8FAF134324FC8D8700A6199F /* main.m in Sources */,
