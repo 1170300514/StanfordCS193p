@@ -57,6 +57,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Zmq-b8-BkI">
+                                <rect key="frame" x="183" y="438" width="49" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2mm-Gf-GWq">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -70,6 +74,7 @@
                     <navigationItem key="navigationItem" id="eDh-kf-GuM"/>
                     <connections>
                         <outlet property="scrollView" destination="2mm-Gf-GWq" id="XWc-Np-Xco"/>
+                        <outlet property="spinner" destination="Zmq-b8-BkI" id="ZrT-Vr-B6G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIk-17-t8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
